@@ -15,7 +15,7 @@ def check_seo_elements(url):
         'meta_description': meta_description,
         'headers': headers
     }
-url = "https://bizyineyollarda.com"
+url = "https://google.com"
 seo_elements = check_seo_elements(url)
 print(f"SEO Elements for '{url}':\nTitle: {seo_elements['title']}\nMeta Description:{seo_elements['meta_description']}\nHeaders:{seo_elements['headers']}")
 
